@@ -12,7 +12,6 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <depend>gazebo_ros</depend>
   <exec_depend>robot_state_publisher</exec_depend>
 
   <test_depend>rostest</test_depend>
