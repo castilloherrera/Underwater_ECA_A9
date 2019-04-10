@@ -1,0 +1,49 @@
+<launch>
+  <arg name="record" default="false"/>
+  <arg name="bag_filename" default="recording.bag"/>
+  <arg name="use_ned_frame" default="false"/>
+
+  <group if="$(arg record)">
+    <node pkg="rosbag" type="record" name="recording"
+      args="record -O $(arg bag_filename)
+        /eca_a9/dp_controller/trajectory
+        /eca_a9/dp_controller/reference
+        /eca_a9/pose_gt_ned
+        /eca_a9/dp_controller/error
+        /hydrodynamics/current_velocity        
+        /eca_a9/wrench_perturbation
+        /eca_a9/control_allocation/control_input
+        /eca_a9/thrusters/0/thrust
+        /eca_a9/thrusters/0/input
+        /eca_a9/fins/0/input
+        /eca_a9/fins/1/input
+        /eca_a9/fins/2/input
+        /eca_a9/fins/3/input
+        /eca_a9/fins/0/output
+        /eca_a9/fins/1/output
+        /eca_a9/fins/2/output
+        /eca_a9/fins/3/output"
+      if="$(arg use_ned_frame)"/>
+
+      <node pkg="rosbag" type="record" name="recording"
+        args="record -O $(arg bag_filename)
+          /eca_a9/dp_controller/trajectory
+          /eca_a9/dp_controller/reference
+          /eca_a9/pose_gt
+          /eca_a9/dp_controller/error
+          /hydrodynamics/current_velocity
+          /eca_a9/wrench_perturbation
+          /eca_a9/control_allocation/control_input
+          /eca_a9/thrusters/0/thrust
+          /eca_a9/thrusters/0/input
+          /eca_a9/fins/0/input
+          /eca_a9/fins/1/input
+          /eca_a9/fins/2/input
+          /eca_a9/fins/3/input
+          /eca_a9/fins/0/output
+          /eca_a9/fins/1/output
+          /eca_a9/fins/2/output
+          /eca_a9/fins/3/output"
+        unless="$(arg use_ned_frame)"/>
+  </group>
+</launch>
