@@ -19,7 +19,7 @@
   <xacro:arg name="namespace" default="eca_a9"/>
   <xacro:arg name="inertial_reference_frame" default="world"/>
   <!-- Include the UUV macro file -->
-  <xacro:include filename="$(find configuration)/urdf/eca_a9_base.xacro"/>
+  <xacro:include filename="$(find definition)/urdf/eca_a9_base.xacro"/>
   <!-- Create the eca_a9 -->
   <xacro:eca_a9_base 
     namespace="$(arg namespace)" 

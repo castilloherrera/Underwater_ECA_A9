@@ -32,7 +32,7 @@
   <group ns="$(arg namespace)">
     <group if="$(arg use_ned_frame)">
       <param name="robot_description"
-             command="$(find xacro)/xacro '$(find configuration)/robots/eca_a9_$(arg mode).urdf.xacro' --inorder
+             command="$(find xacro)/xacro '$(find definition)/robots/eca_a9_$(arg mode).urdf.xacro' --inorder
                       debug:=$(arg debug)
                       namespace:=$(arg namespace)
                       inertial_reference_frame:=world_ned" />
@@ -40,7 +40,7 @@
 
     <group unless="$(arg use_ned_frame)">
       <param name="robot_description"
-             command="$(find xacro)/xacro '$(find configuration)/robots/eca_a9_$(arg mode).urdf.xacro' --inorder
+             command="$(find xacro)/xacro '$(find definition)/robots/eca_a9_$(arg mode).urdf.xacro' --inorder
                       debug:=$(arg debug)
                       namespace:=$(arg namespace)
                       inertial_reference_frame:=world" />

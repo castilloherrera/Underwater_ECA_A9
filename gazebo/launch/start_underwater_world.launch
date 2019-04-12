@@ -10,7 +10,7 @@
 
   <arg name="use_ned_frame" default="false"/>
 
-  <include file="$(find configuration)/launch/upload_eca_a9.launch">
+  <include file="$(find definition)/launch/upload_eca_a9.launch">
     <arg name="x" value="$(arg x)"/>
     <arg name="y" value="$(arg y)"/>
     <arg name="z" value="$(arg z)"/>

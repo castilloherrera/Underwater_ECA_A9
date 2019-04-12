@@ -12,7 +12,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>configuration</exec_depend>
+  <exec_depend>definition</exec_depend>
   <exec_depend>control</exec_depend>
 
 </package>
