@@ -1,0 +1,33 @@
+mass: 69.7
+model: eca_a9
+inertial:
+  ixx: 0.6
+  iyy: 30.0
+  izz: 35.0
+  ixy: 0
+  ixz: 0
+  iyz: 0
+cog: [0, 0, 0]
+# CoB represented wrt ENU convention
+cob: [0, 0, 0.06]
+volume: 0.082264174
+length: 1.98
+height: 0.115
+width: 0.115
+base_link: base_link
+Ma:
+- [4, 0,  0,  0,   0,  0]
+- [0, 95, 0,  0,   0,  0]
+- [0, 0,  75, 0,   0,  0]
+- [0, 0,  0,  0.4, 0,  0]
+- [0, 0,  0,  0,   27, 0]
+- [0, 0,  0,  0,   0,  32]
+# In the model, the damping coefficients are pre-multiplied by -1
+linear_damping_forward_speed:
+- [-8, 0,    0,    0,   0,    0]
+- [0,  -162, 0,    0,   0,    150]
+- [0,  0,    -108, 0,   -100, 0]
+- [0,  0,    0,    -13, 0,    0]
+- [0,  0,    37,   0,   -20,  0]
+- [0,  -34,  0,    0,   0,    -32]
+density: 1028.0
