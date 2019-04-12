@@ -12,7 +12,9 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>definition</exec_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_export_depend>gazebo_ros</build_export_depend>
+
   <exec_depend>control</exec_depend>
 
 </package>
