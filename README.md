@@ -27,6 +27,10 @@ catkin build
 
 # Start
 
-Start an empty underwater environment using either
+To run a demosntration with the underwater, you can run a Simulator Underwater scenario, such as
 
-roslaunch worlds ocean_waves.launch
+**** roslaunch worlds ocean_waves.launch
+
+and then 
+
+**** roslaunch gazebo_und start_underwater.launch
