@@ -39,6 +39,7 @@
   <arg name="fin_topic_prefix" default="fins"/>
   <arg name="fin_topic_suffix" default="input"/>
 
+
   <group if="$(arg gui_on)">
       <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control.rviz"/>
   </group>

@@ -1,26 +1,18 @@
 <?xml version="1.0"?>
-<!-- Copyright (c) 2016 The UUV Simulator Authors.
-     All rights reserved.
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
+<!--***************************************************    
+ * Title: UUV Simulator   
+ * Author: The UUV Simulator Authors  
+ * Date: 2016      
+ * Availability: https://uuvsimulator.github.io/
+***************************************************
 -->
+
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
   <!-- Import macro files -->
-  <xacro:include filename="$(find tools)/urdf/common.urdf.xacro" />
-  <!--xacro:include filename="$(find uuv_sensor_ros_plugins)/urdf/sensor_snippets.xacro"/>
-  <xacro:include filename="$(find eca_a9_description)/urdf/eca_a9_snippets.xacro"/>
-  <xacro:include filename="$(find uuv_gazebo_ros_plugins)/urdf/snippets.xacro"/>-->
-
+  <xacro:include filename="$(find description)/urdf/common.urdf.xacro" />
+  <xacro:include filename="$(find sensor_ros_plugins)/urdf/sensor_snippets.xacro"/>
+  <xacro:include filename="$(find description_und)/urdf/eca_a9_snippets.xacro"/>
+  <xacro:include filename="$(find gazebo_ros_plugins)/urdf/snippets.xacro"/>
   <!-- Properties -->
   <xacro:property name="mass" value="69.7"/>
   <xacro:property name="length" value="1.98"/>
@@ -33,10 +25,10 @@
   <xacro:property name="area" value="0.04155"/>
   <xacro:property name="length" value="1.98"/>
 
-  <xacro:property name="visual_mesh_file" value="file://$(find definition)/mesh/eca_a9.dae"/>
-  <xacro:property name="collision_mesh_file" value="file://$(find definition)/mesh/eca_a9.stl"/>
-  <xacro:property name="prop_mesh_file" value="file://$(find definition)/mesh/eca_a9_propeller.dae"/>
-  <xacro:property name="fin_mesh_file" value="file://$(find definition)/mesh/eca_a9_fin.dae"/>
+  <xacro:property name="visual_mesh_file" value="file://$(find description_und)/mesh/eca_a9.dae"/>
+  <xacro:property name="collision_mesh_file" value="file://$(find description_und)/mesh/eca_a9.stl"/>
+  <xacro:property name="prop_mesh_file" value="file://$(find description_und)/mesh/eca_a9_propeller.dae"/>
+  <xacro:property name="fin_mesh_file" value="file://$(find description_und)/mesh/eca_a9_fin.dae"/>
 
   <xacro:macro name="eca_a9_base" params="namespace debug inertial_reference_frame">
     <link name="${namespace}/base_link">
@@ -121,7 +113,7 @@
     </xacro:thruster_module_first_order_basic_fcn_macro>
 
     <!-- TODO: Parametrize the battery unit -->
-    <!--xacro:basic_linear_battery_macro
+    <xacro:basic_linear_battery_macro
       namespace="${namespace}"
       parent_link="${namespace}/base_link"
       prefix=""
@@ -132,8 +124,8 @@
       resistance="0.002"
       smooth_current_tau="1.9499"
       voltage="4.2"
-      update_rate="2.0"/>-->
+      update_rate="2.0"/>
 
-    <!--xacro:include filename="$(find configuration)/urdf/eca_a9_sensors.xacro"/>-->
+    <xacro:include filename="$(find description_und)/urdf/eca_a9_sensors.xacro"/>
   </xacro:macro>
 </robot>

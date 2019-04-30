@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>control</name>
+  <name>gazebo_und</name>
   <version>0.0.0</version>
-  <description>The control package</description>
+  <description>The gazebo_und package</description>
 
   <maintainer email="alamcastillo@outlook.com">CASTILLO HERRERA Alam</maintainer>
   
@@ -12,5 +12,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <exec_depend>description_und</exec_depend>
+  <exec_depend>control</exec_depend>
 
 </package>

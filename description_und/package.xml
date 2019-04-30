@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>description_und</name>
+  <version>0.0.0</version>
+  <description>The description_und package</description>
+
+  <maintainer email="alamcastillo@outlook.com">CASTILLO HERRERA Alam</maintainer>
+  
+  <author email="alamcastillo@outlook.com">CASTILLO HERRERA Alam</author>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>description</exec_depend>
+  <exec_depend>gazebo_ros_plugins</exec_depend>
+  <exec_depend>sensor_ros_plugins</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>tools</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+
+  <test_depend>rostest</test_depend>
+  <test_depend>xacro</test_depend>
+  <test_depend>rosunit</test_depend>
+
+</package>
