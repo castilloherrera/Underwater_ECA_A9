@@ -9,8 +9,8 @@ git clone https://github.com/castilloherrera/Underwater_ECA_A9.git
 
 --> Then build your workspace using 
 
-     **** Whit the Simulator Underwater 
-     **** git clone https://github.com/castilloherrera/Simulator_Underwater.git
+    Whit the Simulator Underwater 
+    git clone https://github.com/castilloherrera/Simulator_Underwater.git
      
 cd ~/catkin_ws
 
@@ -29,8 +29,8 @@ catkin build
 
 To run a demosntration with the underwater, you can run a Simulator Underwater scenario, such as
 
-**** roslaunch worlds ocean_waves.launch
+    roslaunch worlds ocean_waves.launch
 
 and then 
 
-**** roslaunch gazebo_und start_underwater.launch
+    roslaunch gazebo_und start_underwater.launch
