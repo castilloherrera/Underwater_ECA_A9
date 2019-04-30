@@ -1,13 +1,13 @@
 # Underwater_ECA_A9
 # Installation 
 
---> Copy the files in your Workspace 
+Copy the files in your Workspace 
 
 cd ~/name_of_workspace
 
 git clone https://github.com/castilloherrera/Underwater_ECA_A9.git
 
---> Then build your workspace using 
+Then build your workspace using 
 
     Whit the Simulator Underwater 
     git clone https://github.com/castilloherrera/Simulator_Underwater.git
