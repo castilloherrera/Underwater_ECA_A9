@@ -4,9 +4,7 @@
  * Author: The UUV Simulator Authors  
  * Date: 2016      
  * Availability: https://uuvsimulator.github.io/
-***************************************************
--->
-
+*************************************************** -->
 <robot name="eca_a9" xmlns:xacro="http://www.ros.org/wiki/xacro" >
   <xacro:arg name="debug" default="0"/>
   <xacro:arg name="namespace" default="eca_a9"/>

@@ -4,9 +4,7 @@
  * Author: The UUV Simulator Authors  
  * Date: 2016      
  * Availability: https://uuvsimulator.github.io/
-***************************************************
--->
-
+*************************************************** -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     <!-- Mount a 3D pose sensor -->
     <xacro:default_pose_3d_macro
