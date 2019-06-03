@@ -1,0 +1,39 @@
+<launch>
+  <arg name="name" default="eca_a9"/>
+  <!-- Vehicle's initial position -->
+  <arg name="x" default="0"/>
+  <arg name="y" default="0"/>
+  <arg name="z" default="-20"/>
+  <arg name="yaw" default="0"/>
+
+  <arg name="gui_on" default="true"/>
+
+  <arg name="record" default="false"/>
+  <arg name="bag_filename" default="recording.bag"/>
+
+  <arg name="use_ned_frame" default="false"/>
+
+
+  <include file="$(find description_und)/launch/upload_eca_a9.launch">
+    <arg name="namespace" value="$(arg name)"/>
+    <arg name="x" value="$(arg x)"/>
+    <arg name="y" value="$(arg y)"/>
+    <arg name="z" value="$(arg z)"/>
+    <arg name="yaw" value="$(arg yaw)"/>
+  </include>
+
+  <include file="$(find control)/launch/start_trajectory.launch"/>
+    
+  <include file="$(find utils)/launch/send_waypoints_file.launch">
+    <arg name="name" value="eca_a9"/>
+    <arg name="filename" value="$(find gazebo_und)/config/waypoint_set_rectangle.yaml"/>
+    <arg name="interpolator" value="dubins"/>
+  </include>
+
+  <!-- Initialize the recording afo the simulation according to the record flag  -->
+  <include file="$(find gazebo_und)/launch/record_demo.launch">
+    <arg name="record" value="$(arg record)"/>
+    <arg name="use_ned_frame" value="$(arg use_ned_frame)"/>
+    <arg name="bag_filename" value="$(arg bag_filename)"/>
+  </include>
+</launch>
