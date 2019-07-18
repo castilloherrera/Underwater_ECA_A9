@@ -5,7 +5,7 @@ Copy the files in your Workspace
 
 cd ~/name_of_workspace
 
-git clone https://github.com/castilloherrera/Underwater_ECA_A9.git
+    git clone https://github.com/castilloherrera/Underwater_ECA_A9.git
 
 Then build your workspace using 
 
