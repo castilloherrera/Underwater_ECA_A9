@@ -7,7 +7,7 @@ cd ~/name_of_workspace
 
     git clone https://github.com/castilloherrera/Underwater_ECA_A9.git
 
-Then build your workspace using 
+Then, build your workspace using 
 
     Whit the Simulator Underwater 
     git clone https://github.com/castilloherrera/Simulator_Underwater.git
@@ -31,7 +31,7 @@ To run a demosntration with the underwater, you can run a Simulator Underwater s
 
     roslaunch worlds ocean_waves.launch
 
-and then 
+and then: 
 
  -For a circular trajectory :
  
