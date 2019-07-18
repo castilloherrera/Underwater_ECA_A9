@@ -4,7 +4,7 @@
   <arg name="x" default="0"/>
   <arg name="y" default="0"/>
   <arg name="z" default="-20"/>
-  <arg name="yaw" default="0"/>
+  <arg name="yaw" default="1.57079632679"/>
 
   <arg name="gui_on" default="true"/>
 

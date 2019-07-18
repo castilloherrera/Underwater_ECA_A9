@@ -17,8 +17,9 @@
     <arg name="yaw" value="$(arg yaw)"/>
   </include>
 
-  <include file="$(find control)/launch/start_underwater.launch"/>
-    
+  <!--include file="$(find control)/launch/start_underwater.launch"/> -->
+  <include file="$(find control)/launch/start_geometric_tracking_control.launch"/>
+  
   <!-- Initialize the recording fo the simulation according to the record flag  -->
   <include file="$(find gazebo_und)/launch/record_demo.launch">
     <arg name="record" value="$(arg record)"/>

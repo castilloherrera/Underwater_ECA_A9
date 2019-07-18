@@ -1,10 +1,9 @@
 <launch>
   <arg name="name" default="eca_a9"/>
   <arg name="gui_on" default="true"/>
-  <arg name="namespace" default="eca_a9"/>
- 
-  <arg name="max_forward_speed" default="2.5"/>
-  <arg name="dubins_radius" default="1"/>
+
+  <arg name="max_forward_speed" default="2"/>
+  <arg name="dubins_radius" default="10"/>
   <arg name="min_thrust" default="0"/>
   <arg name="max_thrust" default="120"/>
   <arg name="thrust_p_gain" default="5.0"/>
@@ -19,6 +18,7 @@
   <arg name="map_pitch" value="1,1,-1,-1"/>
   <arg name="map_yaw" value="-1,1,1,-1"/>
   <arg name="max_fin_angle" default="1.396263402"/>
+  <arg name="idle_radius" default="30"/>
   <arg name="look_ahead_delay" default="0.0"/>
   <arg name="dubins_max_pitch" default="0.26"/>
   <arg name="desired_pitch_limit" default="0.26"/>
@@ -33,39 +33,30 @@
   <arg name="thruster_topic_suffix" default="input" />
   <arg name="thruster_frame_base" default="thruster_" />
   <arg name="thruster_conversion_fcn" default="proportional" />
+  <!-- For proportional thruster model: gain * rotor_ang_vel * |rotor_ang_vel| -->
   <arg name="thruster_gain" default="0.000049"/>
 
   <arg name="fin_topic_prefix" default="fins"/>
   <arg name="fin_topic_suffix" default="input"/>
 
   <!-- This node just reads the trajectory and waypoint topics and publishes
-       visualization markers for RViz -->
+     visualization markers for RViz -->
   <group if="$(arg gui_on)">
-    <group ns="$(arg name)">
-      <node pkg="utils"
-             type="trajectory_marker_publisher.py"
-             name="trajectory_marker_publisher"
-             output="screen">
-         <remap from="trajectory" to="dp_controller/trajectory"/>
-         <remap from="waypoints" to="dp_controller/waypoints"/>
-         <remap from="reference" to="dp_controller/reference"/>
-      </node>
-    </group>
-  </group>  
+      <group ns="$(arg name)">
+          <node pkg="utils"
+              type="trajectory_marker_publisher.py"
+              name="trajectory_marker_publisher"
+              output="screen"/>
+      </group>
+  </group>
 
   <group ns="$(arg name)">
     <node pkg="trajectory_control"
-          type="auv_geometric_controller_rect.py"
-          name="auv_geometric_controller_rect"
+          type="auv_geometric_tracking_controller_circle.py"
+          name="auv_geometric_tracking_controller_circle"
           output="screen"
           unless="$(arg use_ned_frame)">
       <remap from="odom" to="pose_gt"/>
-      <remap from="trajectory" to="dp_controller/trajectory"/>
-      <remap from="input_trajectory" to="dp_controller/input_trajectory"/>
-      <remap from="waypoints" to="dp_controller/waypoints"/>
-      <remap from="reference" to="dp_controller/reference"/>
-      <remap from="thruster_output" to="thruster_manager/input_stamped"/>
-      <remap from="auv_command_output" to="control_allocation/control_input"/>
       <rosparam subst_value="true">
           timeout_idle_mode: $(arg timeout_idle_mode)
           max_forward_speed: $(arg max_forward_speed)
@@ -90,6 +81,7 @@
           fin_topic_prefix: $(arg fin_topic_prefix)
           fin_topic_suffix: $(arg fin_topic_suffix)
           max_fin_angle: $(arg max_fin_angle)
+          idle_radius: $(arg idle_radius)
           look_ahead_delay: $(arg look_ahead_delay)
           desired_pitch_limit: $(arg desired_pitch_limit)
           yaw_error_limit: $(arg yaw_error_limit)
@@ -110,18 +102,11 @@
     </node>
 
     <node pkg="trajectory_control"
-          type="auv_geometric_controller_rect.py"
-          name="auv_geometric_controller_rect"
+          type="auv_geometric_tracking_controller_circle.py"
+          name="auv_geometric_tracking_controller_circle"
           output="screen"
           if="$(arg use_ned_frame)">
       <remap from="odom" to="pose_gt_ned"/>
-      <remap from="trajectory" to="dp_controller/trajectory"/>
-      <remap from="input_trajectory" to="dp_controller/input_trajectory"/>
-      <remap from="waypoints" to="dp_controller/waypoints"/>
-      <remap from="error" to="dp_controller/error"/>
-      <remap from="reference" to="dp_controller/reference"/>
-      <remap from="thruster_output" to="thruster_manager/input_stamped"/>
-      <remap from="auv_command_output" to="control_allocation/control_input"/>
       <rosparam subst_value="true">
           timeout_idle_mode: $(arg timeout_idle_mode)
           max_forward_speed: $(arg max_forward_speed)
@@ -146,6 +131,7 @@
           fin_topic_prefix: $(arg fin_topic_prefix)
           fin_topic_suffix: $(arg fin_topic_suffix)
           max_fin_angle: $(arg max_fin_angle)
+          idle_radius: $(arg idle_radius)
           look_ahead_delay: $(arg look_ahead_delay)
           desired_pitch_limit: $(arg desired_pitch_limit)
           yaw_error_limit: $(arg yaw_error_limit)
@@ -153,7 +139,7 @@
               radius: $(arg dubins_radius)
               max_pitch: $(arg dubins_max_pitch)
           lipb:
-              radius: 10
+              radius: 20
           thruster_config:
               topic_prefix: $(arg thruster_topic_prefix)
               topic_suffix: $(arg thruster_topic_suffix)
@@ -164,7 +150,8 @@
                   gain: $(arg thruster_gain)
       </rosparam>
     </node>
-</group>
+  </group>
+
   <group if="$(arg gui_on)">
       <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control.rviz"/>
   </group>
