@@ -33,4 +33,10 @@ To run a demosntration with the underwater, you can run a Simulator Underwater s
 
 and then 
 
-    roslaunch gazebo_und start_underwater.launch
+ -For a circular trajectory :
+ 
+    roslaunch gazebo_und start_trajectory_control_circle.launch
+    
+ -For a rectangle trajectory :
+
+    roslaunch gazebo_und start_trajectory_control_rectangle.launch
