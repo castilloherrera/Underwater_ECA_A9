@@ -1,0 +1,25 @@
+<launch>
+ <!-- BEGIN ROBOT 1-->
+  <group ns="Underwater0">
+    <param name="namespace" value="Underwater0" />
+    <include file="$(find gazebo_und)/launch/underwater.launch" >
+      <arg name="x" value="0"/>
+      <arg name="y" value="0"/>
+      <arg name="z" value="-5"/>
+      <arg name="yaw" default="0.0"/>
+      <arg name="underwater_name"  value="Underwater0" />
+    </include>
+  </group>
+
+  <!-- BEGIN ROBOT 2-->
+  <group ns="Underwater1">
+    <param name="namespace" value="Underwater1" />
+    <include file="$(find gazebo_und)/launch/underwater.launch" >
+      <arg name="x" value="5"/>
+      <arg name="y" value="0"/>
+      <arg name="z" value="-5"/>
+      <arg name="yaw" default="0.0"/>
+      <arg name="underwater_name"  value="Underwater1" />
+    </include>
+  </group>
+</launch>

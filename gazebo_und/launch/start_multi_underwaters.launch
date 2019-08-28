@@ -1,0 +1,22 @@
+<launch>
+  <arg name="record" default="false"/>
+  <arg name="bag_filename" default="recording.bag"/>
+  <arg name="use_ned_frame" default="false"/>
+
+  <!-- Initialize the underwaters  -->
+  <include file="$(find gazebo_und)/launch/multi_underwaters.launch"/>
+
+  <!--include file="$(find control)/launch/start_geometric_tracking_control.launch"/-->
+  <!--include file="$(find control)/launch/start_geometric_tracking_control_multi_und.launch"/-->
+
+  <!-- Initialize the recording afo the simulation according to the record flag  -->
+  <include file="$(find gazebo_und)/launch/record_demo.launch">
+    <arg name="record" value="$(arg record)"/>
+    <arg name="use_ned_frame" value="$(arg use_ned_frame)"/>
+    <arg name="bag_filename" value="$(arg bag_filename)"/>
+  </include>
+
+  <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_multi.rviz"/>
+  
+</launch>
+
