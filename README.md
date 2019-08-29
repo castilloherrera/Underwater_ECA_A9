@@ -41,6 +41,6 @@ and then:
 
     roslaunch gazebo_und start_trajectory_control_rectangle.launch
     
- -For a underwater Fleet :
+ -For a underwater fleet :
 
     roslaunch gazebo_und start_underwater_fleet.launch
