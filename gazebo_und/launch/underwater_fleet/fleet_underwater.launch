@@ -1,0 +1,62 @@
+<launch>
+  <!-- BEGIN ROBOT 1-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/ten_underwater_row.launch" >
+    <arg name="column" value="0"/> 
+    <arg name="pose_x" value="0"/>
+  </include>
+
+  <!-- BEGIN ROBOT 2-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/ten_underwater_row.launch" >
+    <arg name="column" value="1"/> 
+    <arg name="pose_x" value="3"/>
+  </include>
+
+  <!-- BEGIN ROBOT 3-->
+  <!--include file="$(find gazebo_und)/launch/underwater_fleet/ten_underwater_row.launch" >
+    <arg name="column" value="2"/> 
+    <arg name="pose_x" value="6"/>
+  </include-->
+
+  <!-- BEGIN ROBOT 4-->
+  <!--include file="$(find gazebo_und)/launch/underwater_fleet/ten_underwater_row.launch" >
+    <arg name="column" value="3"/> 
+    <arg name="pose_x" value="9"/>
+  </include-->
+
+  <!-- BEGIN ROBOT 5-->
+  <!--include file="$(find gazebo_und)/launch/underwater_fleet/ten_underwater_row.launch" >
+    <arg name="column" value="4"/> 
+    <arg name="pose_x" value="12"/>
+  </include-->
+
+  <!-- BEGIN ROBOT 6-->
+  <!--include file="$(find gazebo_und)/launch/underwater_fleet/ten_underwater_row.launch" >
+    <arg name="column" value="5"/> 
+    <arg name="pose_x" value="15"/>
+  </include-->
+
+  <!-- BEGIN ROBOT 7-->
+  <!--include file="$(find gazebo_und)/launch/underwater_fleet/ten_underwater_row.launch" >
+    <arg name="column" value="6"/> 
+    <arg name="pose_x" value="18"/>
+  </include-->
+
+  <!-- BEGIN ROBOT 8-->
+  <!--include file="$(find gazebo_und)/launch/underwater_fleet/ten_underwater_row.launch" >
+    <arg name="column" value="7"/> 
+    <arg name="pose_x" value="21"/>
+  </include-->
+
+  <!-- BEGIN ROBOT 9-->
+  <!--include file="$(find gazebo_und)/launch/underwater_fleet/ten_underwater_row.launch" >
+    <arg name="column" value="8"/> 
+    <arg name="pose_x" value="24"/>
+  </include-->
+
+  <!-- BEGIN ROBOT 10-->
+  <!--include file="$(find gazebo_und)/launch/underwater_fleet/ten_underwater_row.launch" >
+    <arg name="column" value="9"/> 
+    <arg name="pose_x" value="27"/>
+  </include-->
+
+</launch>

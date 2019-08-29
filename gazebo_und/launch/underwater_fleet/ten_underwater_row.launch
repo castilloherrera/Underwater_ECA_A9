@@ -1,0 +1,95 @@
+<launch>
+  <arg name="column" default="0"/>
+  <arg name="pose_x" default="0"/>
+
+  <!-- BEGIN ROBOT 1-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/one_underwater.launch" >
+    <arg name="x" value="$(arg pose_x)"/> 
+    <arg name="y" value="0"/>
+    <arg name="z" value="-5"/>
+    <arg name="yaw" default="0.0"/>
+    <arg name="underwater_name"  value="Underwater_$(arg column)_0" />
+  </include>
+
+  <!-- BEGIN ROBOT 2-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/one_underwater.launch" >
+    <arg name="x" value="$(arg pose_x)"/> 
+    <arg name="y" value="3"/>
+    <arg name="z" value="-5"/>
+    <arg name="yaw" default="0.0"/>
+    <arg name="underwater_name"  value="Underwater_$(arg column)_1" />
+  </include>
+
+  <!-- BEGIN ROBOT 3-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/one_underwater.launch" >
+    <arg name="x" value="$(arg pose_x)"/> 
+    <arg name="y" value="6"/>
+    <arg name="z" value="-5"/>
+    <arg name="yaw" default="0.0"/>
+    <arg name="underwater_name"  value="Underwater_$(arg column)_2" />
+  </include>
+
+  <!-- BEGIN ROBOT 4-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/one_underwater.launch" >
+    <arg name="x" value="$(arg pose_x)"/> 
+    <arg name="y" value="9"/>
+    <arg name="z" value="-5"/>
+    <arg name="yaw" default="0.0"/>
+    <arg name="underwater_name"  value="Underwater_$(arg column)_3" />
+  </include>
+
+  <!-- BEGIN ROBOT 5-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/one_underwater.launch" >
+    <arg name="x" value="$(arg pose_x)"/> 
+    <arg name="y" value="12"/>
+    <arg name="z" value="-5"/>
+    <arg name="yaw" default="0.0"/>
+    <arg name="underwater_name"  value="Underwater_$(arg column)_4" />
+  </include>
+
+  <!-- BEGIN ROBOT 6-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/one_underwater.launch" >
+    <arg name="x" value="$(arg pose_x)"/> 
+    <arg name="y" value="15"/>
+    <arg name="z" value="-5"/>
+    <arg name="yaw" default="0.0"/>
+    <arg name="underwater_name"  value="Underwater_$(arg column)_5" />
+  </include>
+
+  <!-- BEGIN ROBOT 7-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/one_underwater.launch" >
+    <arg name="x" value="$(arg pose_x)"/> 
+    <arg name="y" value="18"/>
+    <arg name="z" value="-5"/>
+    <arg name="yaw" default="0.0"/>
+    <arg name="underwater_name"  value="Underwater_$(arg column)_6" />
+  </include>
+
+  <!-- BEGIN ROBOT 8-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/one_underwater.launch" >
+    <arg name="x" value="$(arg pose_x)"/> 
+    <arg name="y" value="21"/>
+    <arg name="z" value="-5"/>
+    <arg name="yaw" default="0.0"/>
+    <arg name="underwater_name"  value="Underwater_$(arg column)_7" />
+  </include>
+
+  <!-- BEGIN ROBOT 9-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/one_underwater.launch" >
+    <arg name="x" value="$(arg pose_x)"/> 
+    <arg name="y" value="24"/>
+    <arg name="z" value="-5"/>
+    <arg name="yaw" default="0.0"/>
+    <arg name="underwater_name"  value="Underwater_$(arg column)_8" />
+  </include>
+
+  <!-- BEGIN ROBOT 10-->
+  <include file="$(find gazebo_und)/launch/underwater_fleet/one_underwater.launch" >
+    <arg name="x" value="$(arg pose_x)"/> 
+    <arg name="y" value="27"/>
+    <arg name="z" value="-5"/>
+    <arg name="yaw" default="0.0"/>
+    <arg name="underwater_name"  value="Underwater_$(arg column)_9" />
+  </include>
+
+</launch>

@@ -1,8 +1,8 @@
 <launch>
  <!-- BEGIN ROBOT 1-->
   <group ns="Underwater0">
-    <param name="namespace" value="Underwater0" />
-    <include file="$(find gazebo_und)/launch/underwater.launch" >
+    <param name="namespace" value="Underwater0" /> <!-- tf_prefix -->
+    <include file="$(find gazebo_und)/launch/multi_underwater/underwater.launch" >
       <arg name="x" value="0"/>
       <arg name="y" value="0"/>
       <arg name="z" value="-5"/>
@@ -13,8 +13,8 @@
 
   <!-- BEGIN ROBOT 2-->
   <group ns="Underwater1">
-    <param name="namespace" value="Underwater1" />
-    <include file="$(find gazebo_und)/launch/underwater.launch" >
+    <param name="namespace" value="Underwater1" /> <!-- tf_prefix -->
+    <include file="$(find gazebo_und)/launch/multi_underwater/underwater.launch" >
       <arg name="x" value="5"/>
       <arg name="y" value="0"/>
       <arg name="z" value="-5"/>

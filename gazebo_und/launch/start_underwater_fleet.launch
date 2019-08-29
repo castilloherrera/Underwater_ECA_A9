@@ -4,7 +4,7 @@
   <arg name="use_ned_frame" default="false"/>
 
   <!-- Initialize the underwaters  -->
-  <include file="$(find gazebo_und)/launch/multi_underwater/multi_underwaters.launch"/>
+  <include file="$(find gazebo_und)/launch/underwater_fleet/fleet_underwater.launch"/>
 
   <!-- Initialize the recording afo the simulation according to the record flag  -->
   <include file="$(find gazebo_und)/launch/record_demo.launch">
@@ -13,7 +13,7 @@
     <arg name="bag_filename" value="$(arg bag_filename)"/>
   </include>
 
-  <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_multi.rviz"/>
+  <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_20.rviz"/>
   
 </launch>
 
