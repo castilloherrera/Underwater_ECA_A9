@@ -44,3 +44,34 @@ and then:
  -For a underwater fleet :
 
     roslaunch gazebo_und start_underwater_fleet.launch
+  
+  WARNING: 
+  -By default the simulation of underwater fleet, starts with 4 underwater for change this option :
+  
+   -If you want 20 underwaters (go to -> /gazebo_und/launch/start_underwater_fleet.launch) :
+   
+   uncomment :
+   
+   <!--node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_20.rviz"/-->
+     
+   and comment :
+   
+     <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_4.rviz"/>
+    
+   Then, go to -> /gazebo_und/launch/underwater_fleet/ten_underwater_row.launch and uncomment all the underwaters.
+    
+     
+   -If you want 10 underwaters (go to -> /gazebo_und/launch/start_underwater_fleet.launch) :
+   
+   uncomment :
+   
+   <!--node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_10.rviz"/-->
+ 
+   and comment:
+     
+     <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_4.rviz"/>
+     
+   Then, go to -> /gazebo_und/launch/underwater_fleet/ten_underwater_row.launch and uncomment the next 3 underwaters.
+     
+  
+  
