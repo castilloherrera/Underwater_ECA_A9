@@ -1,0 +1,4680 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+      Splitter Ratio: 0.5
+    Tree Height: 728
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        Underwater_0_0/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/battery_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_0/camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/cc_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_0/dvl_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/dvl_sonar0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/dvl_sonar1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/dvl_sonar2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/dvl_sonar3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/fin0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/fin1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/fin2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/fin3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_0/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_0/pose_sensor_link_default:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_0/pressure_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/sonarleft_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/sonarright_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_0/thruster_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: Underwater_0_0/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        Underwater_0_0/base_footprint:
+          Value: true
+        Underwater_0_0/base_link:
+          Value: true
+        Underwater_0_0/base_link_ned:
+          Value: true
+        Underwater_0_0/base_stabilized:
+          Value: true
+        Underwater_0_0/battery_link:
+          Value: true
+        Underwater_0_0/camera_link:
+          Value: true
+        Underwater_0_0/camera_link_optical:
+          Value: true
+        Underwater_0_0/cc_sensor_link:
+          Value: true
+        Underwater_0_0/dvl_link:
+          Value: true
+        Underwater_0_0/dvl_sonar0_link:
+          Value: true
+        Underwater_0_0/dvl_sonar1_link:
+          Value: true
+        Underwater_0_0/dvl_sonar2_link:
+          Value: true
+        Underwater_0_0/dvl_sonar3_link:
+          Value: true
+        Underwater_0_0/fin0:
+          Value: true
+        Underwater_0_0/fin1:
+          Value: true
+        Underwater_0_0/fin2:
+          Value: true
+        Underwater_0_0/fin3:
+          Value: true
+        Underwater_0_0/gps_link:
+          Value: true
+        Underwater_0_0/imu_link:
+          Value: true
+        Underwater_0_0/pose_sensor_link_default:
+          Value: true
+        Underwater_0_0/pressure_link:
+          Value: true
+        Underwater_0_0/sonarleft_link:
+          Value: true
+        Underwater_0_0/sonarright_link:
+          Value: true
+        Underwater_0_0/thruster_0:
+          Value: true
+        Underwater_0_1/base_footprint:
+          Value: true
+        Underwater_0_1/base_link:
+          Value: true
+        Underwater_0_1/base_link_ned:
+          Value: true
+        Underwater_0_1/base_stabilized:
+          Value: true
+        Underwater_0_1/battery_link:
+          Value: true
+        Underwater_0_1/camera_link:
+          Value: true
+        Underwater_0_1/camera_link_optical:
+          Value: true
+        Underwater_0_1/cc_sensor_link:
+          Value: true
+        Underwater_0_1/dvl_link:
+          Value: true
+        Underwater_0_1/dvl_sonar0_link:
+          Value: true
+        Underwater_0_1/dvl_sonar1_link:
+          Value: true
+        Underwater_0_1/dvl_sonar2_link:
+          Value: true
+        Underwater_0_1/dvl_sonar3_link:
+          Value: true
+        Underwater_0_1/fin0:
+          Value: true
+        Underwater_0_1/fin1:
+          Value: true
+        Underwater_0_1/fin2:
+          Value: true
+        Underwater_0_1/fin3:
+          Value: true
+        Underwater_0_1/gps_link:
+          Value: true
+        Underwater_0_1/imu_link:
+          Value: true
+        Underwater_0_1/pose_sensor_link_default:
+          Value: true
+        Underwater_0_1/pressure_link:
+          Value: true
+        Underwater_0_1/sonarleft_link:
+          Value: true
+        Underwater_0_1/sonarright_link:
+          Value: true
+        Underwater_0_1/thruster_0:
+          Value: true
+        Underwater_0_2/base_footprint:
+          Value: true
+        Underwater_0_2/base_link:
+          Value: true
+        Underwater_0_2/base_link_ned:
+          Value: true
+        Underwater_0_2/base_stabilized:
+          Value: true
+        Underwater_0_2/battery_link:
+          Value: true
+        Underwater_0_2/camera_link:
+          Value: true
+        Underwater_0_2/camera_link_optical:
+          Value: true
+        Underwater_0_2/cc_sensor_link:
+          Value: true
+        Underwater_0_2/dvl_link:
+          Value: true
+        Underwater_0_2/dvl_sonar0_link:
+          Value: true
+        Underwater_0_2/dvl_sonar1_link:
+          Value: true
+        Underwater_0_2/dvl_sonar2_link:
+          Value: true
+        Underwater_0_2/dvl_sonar3_link:
+          Value: true
+        Underwater_0_2/fin0:
+          Value: true
+        Underwater_0_2/fin1:
+          Value: true
+        Underwater_0_2/fin2:
+          Value: true
+        Underwater_0_2/fin3:
+          Value: true
+        Underwater_0_2/gps_link:
+          Value: true
+        Underwater_0_2/imu_link:
+          Value: true
+        Underwater_0_2/pose_sensor_link_default:
+          Value: true
+        Underwater_0_2/pressure_link:
+          Value: true
+        Underwater_0_2/sonarleft_link:
+          Value: true
+        Underwater_0_2/sonarright_link:
+          Value: true
+        Underwater_0_2/thruster_0:
+          Value: true
+        Underwater_0_3/base_footprint:
+          Value: true
+        Underwater_0_3/base_link:
+          Value: true
+        Underwater_0_3/base_link_ned:
+          Value: true
+        Underwater_0_3/base_stabilized:
+          Value: true
+        Underwater_0_3/battery_link:
+          Value: true
+        Underwater_0_3/camera_link:
+          Value: true
+        Underwater_0_3/camera_link_optical:
+          Value: true
+        Underwater_0_3/cc_sensor_link:
+          Value: true
+        Underwater_0_3/dvl_link:
+          Value: true
+        Underwater_0_3/dvl_sonar0_link:
+          Value: true
+        Underwater_0_3/dvl_sonar1_link:
+          Value: true
+        Underwater_0_3/dvl_sonar2_link:
+          Value: true
+        Underwater_0_3/dvl_sonar3_link:
+          Value: true
+        Underwater_0_3/fin0:
+          Value: true
+        Underwater_0_3/fin1:
+          Value: true
+        Underwater_0_3/fin2:
+          Value: true
+        Underwater_0_3/fin3:
+          Value: true
+        Underwater_0_3/gps_link:
+          Value: true
+        Underwater_0_3/imu_link:
+          Value: true
+        Underwater_0_3/pose_sensor_link_default:
+          Value: true
+        Underwater_0_3/pressure_link:
+          Value: true
+        Underwater_0_3/sonarleft_link:
+          Value: true
+        Underwater_0_3/sonarright_link:
+          Value: true
+        Underwater_0_3/thruster_0:
+          Value: true
+        Underwater_0_4/base_footprint:
+          Value: true
+        Underwater_0_4/base_link:
+          Value: true
+        Underwater_0_4/base_link_ned:
+          Value: true
+        Underwater_0_4/base_stabilized:
+          Value: true
+        Underwater_0_4/battery_link:
+          Value: true
+        Underwater_0_4/camera_link:
+          Value: true
+        Underwater_0_4/camera_link_optical:
+          Value: true
+        Underwater_0_4/cc_sensor_link:
+          Value: true
+        Underwater_0_4/dvl_link:
+          Value: true
+        Underwater_0_4/dvl_sonar0_link:
+          Value: true
+        Underwater_0_4/dvl_sonar1_link:
+          Value: true
+        Underwater_0_4/dvl_sonar2_link:
+          Value: true
+        Underwater_0_4/dvl_sonar3_link:
+          Value: true
+        Underwater_0_4/fin0:
+          Value: true
+        Underwater_0_4/fin1:
+          Value: true
+        Underwater_0_4/fin2:
+          Value: true
+        Underwater_0_4/fin3:
+          Value: true
+        Underwater_0_4/gps_link:
+          Value: true
+        Underwater_0_4/imu_link:
+          Value: true
+        Underwater_0_4/pose_sensor_link_default:
+          Value: true
+        Underwater_0_4/pressure_link:
+          Value: true
+        Underwater_0_4/sonarleft_link:
+          Value: true
+        Underwater_0_4/sonarright_link:
+          Value: true
+        Underwater_0_4/thruster_0:
+          Value: true
+        Underwater_1_0/base_footprint:
+          Value: true
+        Underwater_1_0/base_link:
+          Value: true
+        Underwater_1_0/base_link_ned:
+          Value: true
+        Underwater_1_0/base_stabilized:
+          Value: true
+        Underwater_1_0/battery_link:
+          Value: true
+        Underwater_1_0/camera_link:
+          Value: true
+        Underwater_1_0/camera_link_optical:
+          Value: true
+        Underwater_1_0/cc_sensor_link:
+          Value: true
+        Underwater_1_0/dvl_link:
+          Value: true
+        Underwater_1_0/dvl_sonar0_link:
+          Value: true
+        Underwater_1_0/dvl_sonar1_link:
+          Value: true
+        Underwater_1_0/dvl_sonar2_link:
+          Value: true
+        Underwater_1_0/dvl_sonar3_link:
+          Value: true
+        Underwater_1_0/fin0:
+          Value: true
+        Underwater_1_0/fin1:
+          Value: true
+        Underwater_1_0/fin2:
+          Value: true
+        Underwater_1_0/fin3:
+          Value: true
+        Underwater_1_0/gps_link:
+          Value: true
+        Underwater_1_0/imu_link:
+          Value: true
+        Underwater_1_0/pose_sensor_link_default:
+          Value: true
+        Underwater_1_0/pressure_link:
+          Value: true
+        Underwater_1_0/sonarleft_link:
+          Value: true
+        Underwater_1_0/sonarright_link:
+          Value: true
+        Underwater_1_0/thruster_0:
+          Value: true
+        Underwater_1_1/base_footprint:
+          Value: true
+        Underwater_1_1/base_link:
+          Value: true
+        Underwater_1_1/base_link_ned:
+          Value: true
+        Underwater_1_1/base_stabilized:
+          Value: true
+        Underwater_1_1/battery_link:
+          Value: true
+        Underwater_1_1/camera_link:
+          Value: true
+        Underwater_1_1/camera_link_optical:
+          Value: true
+        Underwater_1_1/cc_sensor_link:
+          Value: true
+        Underwater_1_1/dvl_link:
+          Value: true
+        Underwater_1_1/dvl_sonar0_link:
+          Value: true
+        Underwater_1_1/dvl_sonar1_link:
+          Value: true
+        Underwater_1_1/dvl_sonar2_link:
+          Value: true
+        Underwater_1_1/dvl_sonar3_link:
+          Value: true
+        Underwater_1_1/fin0:
+          Value: true
+        Underwater_1_1/fin1:
+          Value: true
+        Underwater_1_1/fin2:
+          Value: true
+        Underwater_1_1/fin3:
+          Value: true
+        Underwater_1_1/gps_link:
+          Value: true
+        Underwater_1_1/imu_link:
+          Value: true
+        Underwater_1_1/pose_sensor_link_default:
+          Value: true
+        Underwater_1_1/pressure_link:
+          Value: true
+        Underwater_1_1/sonarleft_link:
+          Value: true
+        Underwater_1_1/sonarright_link:
+          Value: true
+        Underwater_1_1/thruster_0:
+          Value: true
+        Underwater_1_2/base_footprint:
+          Value: true
+        Underwater_1_2/base_link:
+          Value: true
+        Underwater_1_2/base_link_ned:
+          Value: true
+        Underwater_1_2/base_stabilized:
+          Value: true
+        Underwater_1_2/battery_link:
+          Value: true
+        Underwater_1_2/camera_link:
+          Value: true
+        Underwater_1_2/camera_link_optical:
+          Value: true
+        Underwater_1_2/cc_sensor_link:
+          Value: true
+        Underwater_1_2/dvl_link:
+          Value: true
+        Underwater_1_2/dvl_sonar0_link:
+          Value: true
+        Underwater_1_2/dvl_sonar1_link:
+          Value: true
+        Underwater_1_2/dvl_sonar2_link:
+          Value: true
+        Underwater_1_2/dvl_sonar3_link:
+          Value: true
+        Underwater_1_2/fin0:
+          Value: true
+        Underwater_1_2/fin1:
+          Value: true
+        Underwater_1_2/fin2:
+          Value: true
+        Underwater_1_2/fin3:
+          Value: true
+        Underwater_1_2/gps_link:
+          Value: true
+        Underwater_1_2/imu_link:
+          Value: true
+        Underwater_1_2/pose_sensor_link_default:
+          Value: true
+        Underwater_1_2/pressure_link:
+          Value: true
+        Underwater_1_2/sonarleft_link:
+          Value: true
+        Underwater_1_2/sonarright_link:
+          Value: true
+        Underwater_1_2/thruster_0:
+          Value: true
+        Underwater_1_3/base_footprint:
+          Value: true
+        Underwater_1_3/base_link:
+          Value: true
+        Underwater_1_3/base_link_ned:
+          Value: true
+        Underwater_1_3/base_stabilized:
+          Value: true
+        Underwater_1_3/battery_link:
+          Value: true
+        Underwater_1_3/camera_link:
+          Value: true
+        Underwater_1_3/camera_link_optical:
+          Value: true
+        Underwater_1_3/cc_sensor_link:
+          Value: true
+        Underwater_1_3/dvl_link:
+          Value: true
+        Underwater_1_3/dvl_sonar0_link:
+          Value: true
+        Underwater_1_3/dvl_sonar1_link:
+          Value: true
+        Underwater_1_3/dvl_sonar2_link:
+          Value: true
+        Underwater_1_3/dvl_sonar3_link:
+          Value: true
+        Underwater_1_3/fin0:
+          Value: true
+        Underwater_1_3/fin1:
+          Value: true
+        Underwater_1_3/fin2:
+          Value: true
+        Underwater_1_3/fin3:
+          Value: true
+        Underwater_1_3/gps_link:
+          Value: true
+        Underwater_1_3/imu_link:
+          Value: true
+        Underwater_1_3/pose_sensor_link_default:
+          Value: true
+        Underwater_1_3/pressure_link:
+          Value: true
+        Underwater_1_3/sonarleft_link:
+          Value: true
+        Underwater_1_3/sonarright_link:
+          Value: true
+        Underwater_1_3/thruster_0:
+          Value: true
+        Underwater_1_4/base_footprint:
+          Value: true
+        Underwater_1_4/base_link:
+          Value: true
+        Underwater_1_4/base_link_ned:
+          Value: true
+        Underwater_1_4/base_stabilized:
+          Value: true
+        Underwater_1_4/battery_link:
+          Value: true
+        Underwater_1_4/camera_link:
+          Value: true
+        Underwater_1_4/camera_link_optical:
+          Value: true
+        Underwater_1_4/cc_sensor_link:
+          Value: true
+        Underwater_1_4/dvl_link:
+          Value: true
+        Underwater_1_4/dvl_sonar0_link:
+          Value: true
+        Underwater_1_4/dvl_sonar1_link:
+          Value: true
+        Underwater_1_4/dvl_sonar2_link:
+          Value: true
+        Underwater_1_4/dvl_sonar3_link:
+          Value: true
+        Underwater_1_4/fin0:
+          Value: true
+        Underwater_1_4/fin1:
+          Value: true
+        Underwater_1_4/fin2:
+          Value: true
+        Underwater_1_4/fin3:
+          Value: true
+        Underwater_1_4/gps_link:
+          Value: true
+        Underwater_1_4/imu_link:
+          Value: true
+        Underwater_1_4/pose_sensor_link_default:
+          Value: true
+        Underwater_1_4/pressure_link:
+          Value: true
+        Underwater_1_4/sonarleft_link:
+          Value: true
+        Underwater_1_4/sonarright_link:
+          Value: true
+        Underwater_1_4/thruster_0:
+          Value: true
+        world:
+          Value: true
+        world_ned:
+          Value: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        world:
+          Underwater_0_0/base_footprint:
+            Underwater_0_0/base_stabilized:
+              Underwater_0_0/base_link:
+                Underwater_0_0/base_link_ned:
+                  {}
+                Underwater_0_0/battery_link:
+                  {}
+                Underwater_0_0/camera_link:
+                  Underwater_0_0/camera_link_optical:
+                    {}
+                Underwater_0_0/cc_sensor_link:
+                  {}
+                Underwater_0_0/dvl_link:
+                  Underwater_0_0/dvl_sonar0_link:
+                    {}
+                  Underwater_0_0/dvl_sonar1_link:
+                    {}
+                  Underwater_0_0/dvl_sonar2_link:
+                    {}
+                  Underwater_0_0/dvl_sonar3_link:
+                    {}
+                Underwater_0_0/fin0:
+                  {}
+                Underwater_0_0/fin1:
+                  {}
+                Underwater_0_0/fin2:
+                  {}
+                Underwater_0_0/fin3:
+                  {}
+                Underwater_0_0/gps_link:
+                  {}
+                Underwater_0_0/imu_link:
+                  {}
+                Underwater_0_0/pose_sensor_link_default:
+                  {}
+                Underwater_0_0/pressure_link:
+                  {}
+                Underwater_0_0/sonarleft_link:
+                  {}
+                Underwater_0_0/sonarright_link:
+                  {}
+                Underwater_0_0/thruster_0:
+                  {}
+          Underwater_0_1/base_footprint:
+            Underwater_0_1/base_stabilized:
+              Underwater_0_1/base_link:
+                Underwater_0_1/base_link_ned:
+                  {}
+                Underwater_0_1/battery_link:
+                  {}
+                Underwater_0_1/camera_link:
+                  Underwater_0_1/camera_link_optical:
+                    {}
+                Underwater_0_1/cc_sensor_link:
+                  {}
+                Underwater_0_1/dvl_link:
+                  Underwater_0_1/dvl_sonar0_link:
+                    {}
+                  Underwater_0_1/dvl_sonar1_link:
+                    {}
+                  Underwater_0_1/dvl_sonar2_link:
+                    {}
+                  Underwater_0_1/dvl_sonar3_link:
+                    {}
+                Underwater_0_1/fin0:
+                  {}
+                Underwater_0_1/fin1:
+                  {}
+                Underwater_0_1/fin2:
+                  {}
+                Underwater_0_1/fin3:
+                  {}
+                Underwater_0_1/gps_link:
+                  {}
+                Underwater_0_1/imu_link:
+                  {}
+                Underwater_0_1/pose_sensor_link_default:
+                  {}
+                Underwater_0_1/pressure_link:
+                  {}
+                Underwater_0_1/sonarleft_link:
+                  {}
+                Underwater_0_1/sonarright_link:
+                  {}
+                Underwater_0_1/thruster_0:
+                  {}
+          Underwater_0_2/base_footprint:
+            Underwater_0_2/base_stabilized:
+              Underwater_0_2/base_link:
+                Underwater_0_2/base_link_ned:
+                  {}
+                Underwater_0_2/battery_link:
+                  {}
+                Underwater_0_2/camera_link:
+                  Underwater_0_2/camera_link_optical:
+                    {}
+                Underwater_0_2/cc_sensor_link:
+                  {}
+                Underwater_0_2/dvl_link:
+                  Underwater_0_2/dvl_sonar0_link:
+                    {}
+                  Underwater_0_2/dvl_sonar1_link:
+                    {}
+                  Underwater_0_2/dvl_sonar2_link:
+                    {}
+                  Underwater_0_2/dvl_sonar3_link:
+                    {}
+                Underwater_0_2/fin0:
+                  {}
+                Underwater_0_2/fin1:
+                  {}
+                Underwater_0_2/fin2:
+                  {}
+                Underwater_0_2/fin3:
+                  {}
+                Underwater_0_2/gps_link:
+                  {}
+                Underwater_0_2/imu_link:
+                  {}
+                Underwater_0_2/pose_sensor_link_default:
+                  {}
+                Underwater_0_2/pressure_link:
+                  {}
+                Underwater_0_2/sonarleft_link:
+                  {}
+                Underwater_0_2/sonarright_link:
+                  {}
+                Underwater_0_2/thruster_0:
+                  {}
+          Underwater_0_3/base_footprint:
+            Underwater_0_3/base_stabilized:
+              Underwater_0_3/base_link:
+                Underwater_0_3/base_link_ned:
+                  {}
+                Underwater_0_3/battery_link:
+                  {}
+                Underwater_0_3/camera_link:
+                  Underwater_0_3/camera_link_optical:
+                    {}
+                Underwater_0_3/cc_sensor_link:
+                  {}
+                Underwater_0_3/dvl_link:
+                  Underwater_0_3/dvl_sonar0_link:
+                    {}
+                  Underwater_0_3/dvl_sonar1_link:
+                    {}
+                  Underwater_0_3/dvl_sonar2_link:
+                    {}
+                  Underwater_0_3/dvl_sonar3_link:
+                    {}
+                Underwater_0_3/fin0:
+                  {}
+                Underwater_0_3/fin1:
+                  {}
+                Underwater_0_3/fin2:
+                  {}
+                Underwater_0_3/fin3:
+                  {}
+                Underwater_0_3/gps_link:
+                  {}
+                Underwater_0_3/imu_link:
+                  {}
+                Underwater_0_3/pose_sensor_link_default:
+                  {}
+                Underwater_0_3/pressure_link:
+                  {}
+                Underwater_0_3/sonarleft_link:
+                  {}
+                Underwater_0_3/sonarright_link:
+                  {}
+                Underwater_0_3/thruster_0:
+                  {}
+          Underwater_0_4/base_footprint:
+            Underwater_0_4/base_stabilized:
+              Underwater_0_4/base_link:
+                Underwater_0_4/base_link_ned:
+                  {}
+                Underwater_0_4/battery_link:
+                  {}
+                Underwater_0_4/camera_link:
+                  Underwater_0_4/camera_link_optical:
+                    {}
+                Underwater_0_4/cc_sensor_link:
+                  {}
+                Underwater_0_4/dvl_link:
+                  Underwater_0_4/dvl_sonar0_link:
+                    {}
+                  Underwater_0_4/dvl_sonar1_link:
+                    {}
+                  Underwater_0_4/dvl_sonar2_link:
+                    {}
+                  Underwater_0_4/dvl_sonar3_link:
+                    {}
+                Underwater_0_4/fin0:
+                  {}
+                Underwater_0_4/fin1:
+                  {}
+                Underwater_0_4/fin2:
+                  {}
+                Underwater_0_4/fin3:
+                  {}
+                Underwater_0_4/gps_link:
+                  {}
+                Underwater_0_4/imu_link:
+                  {}
+                Underwater_0_4/pose_sensor_link_default:
+                  {}
+                Underwater_0_4/pressure_link:
+                  {}
+                Underwater_0_4/sonarleft_link:
+                  {}
+                Underwater_0_4/sonarright_link:
+                  {}
+                Underwater_0_4/thruster_0:
+                  {}
+          Underwater_1_0/base_footprint:
+            Underwater_1_0/base_stabilized:
+              Underwater_1_0/base_link:
+                Underwater_1_0/base_link_ned:
+                  {}
+                Underwater_1_0/battery_link:
+                  {}
+                Underwater_1_0/camera_link:
+                  Underwater_1_0/camera_link_optical:
+                    {}
+                Underwater_1_0/cc_sensor_link:
+                  {}
+                Underwater_1_0/dvl_link:
+                  Underwater_1_0/dvl_sonar0_link:
+                    {}
+                  Underwater_1_0/dvl_sonar1_link:
+                    {}
+                  Underwater_1_0/dvl_sonar2_link:
+                    {}
+                  Underwater_1_0/dvl_sonar3_link:
+                    {}
+                Underwater_1_0/fin0:
+                  {}
+                Underwater_1_0/fin1:
+                  {}
+                Underwater_1_0/fin2:
+                  {}
+                Underwater_1_0/fin3:
+                  {}
+                Underwater_1_0/gps_link:
+                  {}
+                Underwater_1_0/imu_link:
+                  {}
+                Underwater_1_0/pose_sensor_link_default:
+                  {}
+                Underwater_1_0/pressure_link:
+                  {}
+                Underwater_1_0/sonarleft_link:
+                  {}
+                Underwater_1_0/sonarright_link:
+                  {}
+                Underwater_1_0/thruster_0:
+                  {}
+          Underwater_1_1/base_footprint:
+            Underwater_1_1/base_stabilized:
+              Underwater_1_1/base_link:
+                Underwater_1_1/base_link_ned:
+                  {}
+                Underwater_1_1/battery_link:
+                  {}
+                Underwater_1_1/camera_link:
+                  Underwater_1_1/camera_link_optical:
+                    {}
+                Underwater_1_1/cc_sensor_link:
+                  {}
+                Underwater_1_1/dvl_link:
+                  Underwater_1_1/dvl_sonar0_link:
+                    {}
+                  Underwater_1_1/dvl_sonar1_link:
+                    {}
+                  Underwater_1_1/dvl_sonar2_link:
+                    {}
+                  Underwater_1_1/dvl_sonar3_link:
+                    {}
+                Underwater_1_1/fin0:
+                  {}
+                Underwater_1_1/fin1:
+                  {}
+                Underwater_1_1/fin2:
+                  {}
+                Underwater_1_1/fin3:
+                  {}
+                Underwater_1_1/gps_link:
+                  {}
+                Underwater_1_1/imu_link:
+                  {}
+                Underwater_1_1/pose_sensor_link_default:
+                  {}
+                Underwater_1_1/pressure_link:
+                  {}
+                Underwater_1_1/sonarleft_link:
+                  {}
+                Underwater_1_1/sonarright_link:
+                  {}
+                Underwater_1_1/thruster_0:
+                  {}
+          Underwater_1_2/base_footprint:
+            Underwater_1_2/base_stabilized:
+              Underwater_1_2/base_link:
+                Underwater_1_2/base_link_ned:
+                  {}
+                Underwater_1_2/battery_link:
+                  {}
+                Underwater_1_2/camera_link:
+                  Underwater_1_2/camera_link_optical:
+                    {}
+                Underwater_1_2/cc_sensor_link:
+                  {}
+                Underwater_1_2/dvl_link:
+                  Underwater_1_2/dvl_sonar0_link:
+                    {}
+                  Underwater_1_2/dvl_sonar1_link:
+                    {}
+                  Underwater_1_2/dvl_sonar2_link:
+                    {}
+                  Underwater_1_2/dvl_sonar3_link:
+                    {}
+                Underwater_1_2/fin0:
+                  {}
+                Underwater_1_2/fin1:
+                  {}
+                Underwater_1_2/fin2:
+                  {}
+                Underwater_1_2/fin3:
+                  {}
+                Underwater_1_2/gps_link:
+                  {}
+                Underwater_1_2/imu_link:
+                  {}
+                Underwater_1_2/pose_sensor_link_default:
+                  {}
+                Underwater_1_2/pressure_link:
+                  {}
+                Underwater_1_2/sonarleft_link:
+                  {}
+                Underwater_1_2/sonarright_link:
+                  {}
+                Underwater_1_2/thruster_0:
+                  {}
+          Underwater_1_3/base_footprint:
+            Underwater_1_3/base_stabilized:
+              Underwater_1_3/base_link:
+                Underwater_1_3/base_link_ned:
+                  {}
+                Underwater_1_3/battery_link:
+                  {}
+                Underwater_1_3/camera_link:
+                  Underwater_1_3/camera_link_optical:
+                    {}
+                Underwater_1_3/cc_sensor_link:
+                  {}
+                Underwater_1_3/dvl_link:
+                  Underwater_1_3/dvl_sonar0_link:
+                    {}
+                  Underwater_1_3/dvl_sonar1_link:
+                    {}
+                  Underwater_1_3/dvl_sonar2_link:
+                    {}
+                  Underwater_1_3/dvl_sonar3_link:
+                    {}
+                Underwater_1_3/fin0:
+                  {}
+                Underwater_1_3/fin1:
+                  {}
+                Underwater_1_3/fin2:
+                  {}
+                Underwater_1_3/fin3:
+                  {}
+                Underwater_1_3/gps_link:
+                  {}
+                Underwater_1_3/imu_link:
+                  {}
+                Underwater_1_3/pose_sensor_link_default:
+                  {}
+                Underwater_1_3/pressure_link:
+                  {}
+                Underwater_1_3/sonarleft_link:
+                  {}
+                Underwater_1_3/sonarright_link:
+                  {}
+                Underwater_1_3/thruster_0:
+                  {}
+          Underwater_1_4/base_footprint:
+            Underwater_1_4/base_stabilized:
+              Underwater_1_4/base_link:
+                Underwater_1_4/base_link_ned:
+                  {}
+                Underwater_1_4/battery_link:
+                  {}
+                Underwater_1_4/camera_link:
+                  Underwater_1_4/camera_link_optical:
+                    {}
+                Underwater_1_4/cc_sensor_link:
+                  {}
+                Underwater_1_4/dvl_link:
+                  Underwater_1_4/dvl_sonar0_link:
+                    {}
+                  Underwater_1_4/dvl_sonar1_link:
+                    {}
+                  Underwater_1_4/dvl_sonar2_link:
+                    {}
+                  Underwater_1_4/dvl_sonar3_link:
+                    {}
+                Underwater_1_4/fin0:
+                  {}
+                Underwater_1_4/fin1:
+                  {}
+                Underwater_1_4/fin2:
+                  {}
+                Underwater_1_4/fin3:
+                  {}
+                Underwater_1_4/gps_link:
+                  {}
+                Underwater_1_4/imu_link:
+                  {}
+                Underwater_1_4/pose_sensor_link_default:
+                  {}
+                Underwater_1_4/pressure_link:
+                  {}
+                Underwater_1_4/sonarleft_link:
+                  {}
+                Underwater_1_4/sonarright_link:
+                  {}
+                Underwater_1_4/thruster_0:
+                  {}
+          world_ned:
+            {}
+      Update Interval: 0
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /world_models
+      Name: World models
+      Namespaces:
+        "": true
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: -9999
+        Min Value: 9999
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 300
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 0
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: Sonar left
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /Underwater_0_0/sss_left
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: -9999
+        Min Value: 9999
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 300
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 0
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: Sonar right
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /Underwater_0_0/sss_right
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic: /Underwater_0_0/pose_gt
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 255; 85; 255
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Trajectory
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_0_0/trajectory_marker
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_0_0/waypoint_markers
+      Name: Waypoints
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 255; 85; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Waypoint path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_0_0/waypoint_path_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.20000000298023224
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.10000000149011612
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 0 - Wrench
+      Topic: /Underwater_0_0/fins/0/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.30000001192092896
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.10000000149011612
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 1 - Wrench
+      Topic: /Underwater_0_0/fins/1/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.30000001192092896
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.10000000149011612
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 2 - Wrench
+      Topic: /Underwater_0_0/fins/2/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.30000001192092896
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.10000000149011612
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 3 - Wrench
+      Topic: /Underwater_0_0/fins/3/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.30000001192092896
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.10000000149011612
+      Force Color: 53; 98; 204
+      Hide Small Values: true
+      History Length: 1
+      Name: Thrust Wrench
+      Topic: /Underwater_0_0/thrusters/0/thrust_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /Underwater_0_0/reference_marker
+      Name: Reference Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_0_0/interpolator_visual_markers
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /Underwater_0_0/camera/camera_image
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        Underwater_0_1/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/battery_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_1/camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/cc_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_1/dvl_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/dvl_sonar0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/dvl_sonar1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/dvl_sonar2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/dvl_sonar3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/fin0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/fin1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/fin2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/fin3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_1/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_1/pose_sensor_link_default:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_1/pressure_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/sonarleft_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/sonarright_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_1/thruster_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: Underwater_0_1/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar left
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_0_1/sss_left
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar right
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_0_1/sss_right
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic: /Underwater_0_1/pose_gt
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_0_1/waypoint_markers
+      Name: Waypoints
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Trajectory
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_0_1/trajectory_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Waypoints path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_0_1/waypoint_path_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 0 - Wrench
+      Topic: /Underwater_0_1/fins/0/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 1 - Wrench
+      Topic: /Underwater_0_1/fins/1/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 2 - Wrench
+      Topic: /Underwater_0_1/fins/2/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 3 - Wrench
+      Topic: /Underwater_0_1/fins/3/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Thrust Wrench
+      Topic: /Underwater_0_1/thrusters/0/thrust_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /Underwater_0_1/reference_marker
+      Name: Reference Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_0_1/interpolator_visual_markers
+      Name: Marker Array
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /Underwater_0_1/camera/camera_image
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        Underwater_0_2/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/battery_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_2/camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/cc_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_2/dvl_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/dvl_sonar0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/dvl_sonar1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/dvl_sonar2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/dvl_sonar3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/fin0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/fin1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/fin2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/fin3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_2/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_2/pose_sensor_link_default:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_2/pressure_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/sonarleft_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/sonarright_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_2/thruster_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: Underwater_0_2/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar left
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_0_2/sss_left
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar right
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_0_2/sss_right
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic: /Underwater_0_2/pose_gt
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_0_2/waypoint_markers
+      Name: Waypoints
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Trajectory
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_0_2/trajectory_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 57; 122; 227
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Waypoints path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_0_2/waypoint_path_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 0 - Wrench
+      Topic: /Underwater_0_2/fins/0/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 1 - Wrench
+      Topic: /Underwater_0_2/fins/1/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 2 - Wrench
+      Topic: /Underwater_0_2/fins/2/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 3 - Wrench
+      Topic: /Underwater_0_2/fins/3/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Thrust Wrench
+      Topic: /Underwater_0_2/thrusters/0/thrust_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /Underwater_0_2/reference_marker
+      Name: Reference Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_0_2/interpolator_visual_markers
+      Name: Marker Array
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /Underwater_0_2/camera/camera_image
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        Underwater_0_3/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/battery_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_3/camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/cc_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_3/dvl_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/dvl_sonar0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/dvl_sonar1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/dvl_sonar2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/dvl_sonar3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/fin0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/fin1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/fin2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/fin3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_3/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_3/pose_sensor_link_default:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_3/pressure_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/sonarleft_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/sonarright_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_3/thruster_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: Underwater_0_3/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar left
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_0_3/sss_left
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar right
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_0_3/sss_right
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic: /Underwater_0_3/pose_gt
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_0_3/waypoint_markers
+      Name: Waypoints
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Trajectory
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_0_3/trajectory_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 227; 57; 57
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Waypoints path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_0_3/waypoint_path_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 0 - Wrench
+      Topic: /Underwater_0_3/fins/0/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 1 - Wrench
+      Topic: /Underwater_0_3/fins/1/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 2 - Wrench
+      Topic: /Underwater_0_3/fins/2/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 3 - Wrench
+      Topic: /Underwater_0_3/fins/3/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Thrust Wrench
+      Topic: /Underwater_0_3/thrusters/0/thrust_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /Underwater_0_3/reference_marker
+      Name: Reference Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_0_3/interpolator_visual_markers
+      Name: Marker Array
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /Underwater_0_3/camera/camera_image
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        Underwater_0_4/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/battery_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_4/camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/cc_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_4/dvl_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/dvl_sonar0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/dvl_sonar1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/dvl_sonar2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/dvl_sonar3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/fin0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/fin1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/fin2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/fin3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_4/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_4/pose_sensor_link_default:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_0_4/pressure_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/sonarleft_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/sonarright_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_0_4/thruster_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: Underwater_0_4/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar left
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_0_4/sss_left
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar right
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_0_4/sss_right
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic: /Underwater_0_4/pose_gt
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_0_4/waypoint_markers
+      Name: Waypoints
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Trajectory
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_0_4/trajectory_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 227; 190; 57
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Waypoints path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_0_4/waypoint_path_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 0 - Wrench
+      Topic: /Underwater_0_4/fins/0/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 1 - Wrench
+      Topic: /Underwater_0_4/fins/1/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 2 - Wrench
+      Topic: /Underwater_0_4/fins/2/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 3 - Wrench
+      Topic: /Underwater_0_4/fins/3/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Thrust Wrench
+      Topic: /Underwater_0_4/thrusters/0/thrust_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /Underwater_0_4/reference_marker
+      Name: Reference Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_0_4/interpolator_visual_markers
+      Name: Marker Array
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /Underwater_0_4/camera/camera_image
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        Underwater_1_0/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/battery_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_0/camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/cc_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_0/dvl_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/dvl_sonar0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/dvl_sonar1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/dvl_sonar2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/dvl_sonar3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/fin0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/fin1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/fin2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/fin3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_0/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_0/pose_sensor_link_default:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_0/pressure_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/sonarleft_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/sonarright_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_0/thruster_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: Underwater_1_0/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: -9999
+        Min Value: 9999
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 300
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 0
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: Sonar left
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /Underwater_1_0/sss_left
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: -9999
+        Min Value: 9999
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 300
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 0
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: Sonar right
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /Underwater_1_0/sss_right
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic: /Underwater_1_0/pose_gt
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 255; 85; 255
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Trajectory
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_1_0/trajectory_marker
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_1_0/waypoint_markers
+      Name: Waypoints
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 227; 57; 221
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Waypoint path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_1_0/waypoint_path_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.20000000298023224
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.10000000149011612
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 0 - Wrench
+      Topic: /Underwater_1_0/fins/0/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.30000001192092896
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.10000000149011612
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 1 - Wrench
+      Topic: /Underwater_1_0/fins/1/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.30000001192092896
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.10000000149011612
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 2 - Wrench
+      Topic: /Underwater_1_0/fins/2/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.30000001192092896
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.10000000149011612
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 3 - Wrench
+      Topic: /Underwater_1_0/fins/3/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.30000001192092896
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 0.10000000149011612
+      Force Color: 53; 98; 204
+      Hide Small Values: true
+      History Length: 1
+      Name: Thrust Wrench
+      Topic: /Underwater_1_0/thrusters/0/thrust_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /Underwater_1_0/reference_marker
+      Name: Reference Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_1_0/interpolator_visual_markers
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /Underwater_1_0/camera/camera_image
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        Underwater_1_1/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/battery_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_1/camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/cc_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_1/dvl_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/dvl_sonar0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/dvl_sonar1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/dvl_sonar2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/dvl_sonar3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/fin0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/fin1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/fin2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/fin3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_1/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_1/pose_sensor_link_default:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_1/pressure_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/sonarleft_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/sonarright_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_1/thruster_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: Underwater_1_1/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar left
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_1_1/sss_left
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar right
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_1_1/sss_right
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic: /Underwater_1_1/pose_gt
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_1_1/waypoint_markers
+      Name: Waypoints
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Trajectory
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_1_1/trajectory_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 57; 227; 207
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Waypoints path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_1_1/waypoint_path_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 0 - Wrench
+      Topic: /Underwater_1_1/fins/0/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 1 - Wrench
+      Topic: /Underwater_1_1/fins/1/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 2 - Wrench
+      Topic: /Underwater_1_1/fins/2/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 3 - Wrench
+      Topic: /Underwater_1_1/fins/3/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Thrust Wrench
+      Topic: /Underwater_1_1/thrusters/0/thrust_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /Underwater_1_1/reference_marker
+      Name: Reference Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_1_1/interpolator_visual_markers
+      Name: Marker Array
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /Underwater_1_1/camera/camera_image
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        Underwater_1_2/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/battery_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_2/camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/cc_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_2/dvl_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/dvl_sonar0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/dvl_sonar1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/dvl_sonar2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/dvl_sonar3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/fin0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/fin1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/fin2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/fin3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_2/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_2/pose_sensor_link_default:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_2/pressure_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/sonarleft_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/sonarright_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_2/thruster_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: Underwater_1_2/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar left
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_1_2/sss_left
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar right
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_1_2/sss_right
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic: /Underwater_1_2/pose_gt
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_1_2/waypoint_markers
+      Name: Waypoints
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Trajectory
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_1_2/trajectory_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 255; 175; 51
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Waypoints path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_1_2/waypoint_path_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 0 - Wrench
+      Topic: /Underwater_1_2/fins/0/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 1 - Wrench
+      Topic: /Underwater_1_2/fins/1/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 2 - Wrench
+      Topic: /Underwater_1_2/fins/2/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 3 - Wrench
+      Topic: /Underwater_1_2/fins/3/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Thrust Wrench
+      Topic: /Underwater_1_2/thrusters/0/thrust_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /Underwater_1_2/reference_marker
+      Name: Reference Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_1_2/interpolator_visual_markers
+      Name: Marker Array
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /Underwater_1_2/camera/camera_image
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        Underwater_1_3/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/battery_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_3/camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/cc_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_3/dvl_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/dvl_sonar0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/dvl_sonar1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/dvl_sonar2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/dvl_sonar3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/fin0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/fin1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/fin2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/fin3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_3/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_3/pose_sensor_link_default:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_3/pressure_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/sonarleft_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/sonarright_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_3/thruster_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: Underwater_1_3/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar left
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_1_3/sss_left
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar right
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_1_3/sss_right
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic: /Underwater_1_3/pose_gt
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_1_3/waypoint_markers
+      Name: Waypoints
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Trajectory
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_1_3/trajectory_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 0; 151; 103
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Waypoints path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_1_3/waypoint_path_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 0 - Wrench
+      Topic: /Underwater_1_3/fins/0/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 1 - Wrench
+      Topic: /Underwater_1_3/fins/1/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 2 - Wrench
+      Topic: /Underwater_1_3/fins/2/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 3 - Wrench
+      Topic: /Underwater_1_3/fins/3/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Thrust Wrench
+      Topic: /Underwater_1_3/thrusters/0/thrust_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /Underwater_1_3/reference_marker
+      Name: Reference Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_1_3/interpolator_visual_markers
+      Name: Marker Array
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /Underwater_1_3/camera/camera_image
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        Underwater_1_4/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/battery_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_4/camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/cc_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_4/dvl_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/dvl_sonar0_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/dvl_sonar1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/dvl_sonar2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/dvl_sonar3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/fin0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/fin1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/fin2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/fin3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_4/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_4/pose_sensor_link_default:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Underwater_1_4/pressure_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/sonarleft_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/sonarright_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Underwater_1_4/thruster_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: Underwater_1_4/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar left
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_1_4/sss_left
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: -999999
+      Min Color: 0; 0; 0
+      Min Intensity: 999999
+      Name: Sonar right
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /Underwater_1_4/sss_right
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic: /Underwater_1_4/pose_gt
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_1_4/waypoint_markers
+      Name: Waypoints
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Trajectory
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_1_4/trajectory_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 255; 21; 138
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Waypoints path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /Underwater_1_4/waypoint_path_marker
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 0 - Wrench
+      Topic: /Underwater_1_4/fins/0/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 1 - Wrench
+      Topic: /Underwater_1_4/fins/1/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 2 - Wrench
+      Topic: /Underwater_1_4/fins/2/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Fin 3 - Wrench
+      Topic: /Underwater_1_4/fins/3/wrench_topic
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: true
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: Thrust Wrench
+      Topic: /Underwater_1_4/thrusters/0/thrust_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /Underwater_1_4/reference_marker
+      Name: Reference Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /Underwater_1_4/interpolator_visual_markers
+      Name: Marker Array
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /Underwater_1_4/camera/camera_image
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: world
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 24.647598266601562
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -4.149316310882568
+        Y: -3.5169413089752197
+        Z: 4.277556896209717
+      Focal Shape Fixed Size: false
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.48039835691452026
+      Target Frame: eca_a9/base_link
+      Value: Orbit (rviz)
+      Yaw: 3.874032974243164
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1025
+  Hide Left Dock: false
+  Hide Right Dock: true
+  Image:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd00000004000000000000020200000363fc020000001cfb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d00000363000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d006100670065000000023c000000c50000001600fffffffb0000000a0049006d006100670065000000029d000001030000001600fffffffb0000000a0049006d00610067006500000002d8000000c80000001600fffffffb0000000a0049006d006100670065000000023a000000990000001600fffffffb0000000a0049006d00610067006500000002ac000000f40000001600fffffffb0000000a0049006d00610067006500000002d8000000c80000001600fffffffb0000000a0049006d00610067006500000002d8000000c80000001600fffffffb0000000a0049006d00610067006500000002d8000000c80000001600fffffffb0000000a0049006d00610067006500000002d8000000c80000001600fffffffb0000000a0049006d00610067006500000002d8000000c80000001600fffffffb0000000a0049006d00610067006500000002d8000000c80000000000000000fb0000000a0049006d00610067006500000002ac000000f40000000000000000fb0000000a0049006d006100670065000000029f000001010000000000000000fb0000000a0049006d006100670065000000029c000001040000000000000000fb0000000a0049006d006100670065000000029b000001050000000000000000fb0000000a0049006d006100670065000000029a000001060000000000000000fb0000000a0049006d006100670065000000029a000001060000000000000000fb0000000a0049006d006100670065000000029a000001060000000000000000fb0000000a0049006d006100670065000000029a000001060000000000000000fb0000000a0049006d006100670065000000029a000001060000000000000000000000010000010f00000363fc0200000003fb0000000a00560069006500770073000000003d00000363000000a400fffffffb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000073d0000003efc0100000002fb0000000800540069006d006501000000000000073d000002eb00fffffffb0000000800540069006d00650100000000000004500000000000000000000005350000036300000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: true
+  Width: 1853
+  X: 67
+  Y: 27

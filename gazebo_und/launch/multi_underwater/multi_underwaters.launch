@@ -1,5 +1,5 @@
 <launch>
- <!-- BEGIN ROBOT 1-->
+ <!-- BEGIN UNDERWATER 1-->
   <group ns="Underwater0">
     <param name="namespace" value="Underwater0" /> <!-- tf_prefix -->
     <include file="$(find gazebo_und)/launch/multi_underwater/underwater.launch" >
@@ -11,7 +11,7 @@
     </include>
   </group>
 
-  <!-- BEGIN ROBOT 2-->
+  <!-- BEGIN UNDERWATER 2-->
   <group ns="Underwater1">
     <param name="namespace" value="Underwater1" /> <!-- tf_prefix -->
     <include file="$(find gazebo_und)/launch/multi_underwater/underwater.launch" >

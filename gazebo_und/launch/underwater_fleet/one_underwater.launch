@@ -35,8 +35,8 @@
     </include>
 
     <!-- Control -->
-    <!--include file="$(find control)/launch/start_geometric_tracking_control.launch" >
+    <include file="$(find control)/launch/start_geometric_tracking_control.launch" >
       <arg name="name"  value="/$(arg underwater_name)" />
-    </include-->
+    </include>
   </group>
 </launch>
