@@ -46,7 +46,8 @@ and then:
     roslaunch gazebo_und start_underwater_fleet.launch
   
   WARNING: 
-  -By default the simulation of underwater fleet, starts with 4 underwater for change this option :
+  
+ -By default the simulation of underwater fleet, starts with 4 underwater for change this option :
   
    -If you want 20 underwaters (go to -> /gazebo_und/launch/start_underwater_fleet.launch) :
    
