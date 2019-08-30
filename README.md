@@ -52,7 +52,7 @@ and then:
    
    uncomment :
    
-   <!--node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_20.rviz"/-->
+   <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_20.rviz"/>
      
    and comment :
    
@@ -65,7 +65,7 @@ and then:
    
    uncomment :
    
-   <!--node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_10.rviz"/-->
+   <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_10.rviz"/>
  
    and comment:
      
