@@ -40,3 +40,7 @@ and then:
  -For a rectangle trajectory :
 
     roslaunch gazebo_und start_trajectory_control_rectangle.launch
+    
+ -For a underwater fleet :
+
+    roslaunch gazebo_und start_underwater_fleet.launch
