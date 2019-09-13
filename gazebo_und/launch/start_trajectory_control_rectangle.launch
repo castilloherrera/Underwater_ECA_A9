@@ -22,8 +22,16 @@
     <arg name="yaw" value="$(arg yaw)"/>
   </include>
 
-  <include file="$(find control)/launch/start_trajectory.launch"/>
+  <!-- Rectangle with File Yaml With Waypoints of Rectangle -->
+
+  <include file="$(find control)/launch/start_trajectory_rect_file.launch"/>
+
+  <!-- Rectangle with Parametric Equation of Rectangle -->
+
+  <!--include file="$(find control)/launch/start_trajectory_rect.launch"/-->
     
+  <!-- Rectangle with File Yaml With Waypoints of Rectangle -->
+
   <include file="$(find utils)/launch/send_waypoints_file.launch">
     <arg name="name" value="eca_a9"/>
     <arg name="filename" value="$(find gazebo_und)/config/waypoint_set_rectangle.yaml"/>

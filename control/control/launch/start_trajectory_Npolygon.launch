@@ -1,13 +1,9 @@
 <launch>
   <arg name="name" default="eca_a9"/>
   <arg name="gui_on" default="true"/>
-  <arg name="namespace" default="eca_a9"/>
-  
-  <arg name="record" default="false"/>
-  <arg name="bag_filname" default="recording.bag"/>
 
   <arg name="max_forward_speed" default="2"/>
-  <arg name="dubins_radius" default="1"/>
+  <arg name="dubins_radius" default="5"/>
   <arg name="min_thrust" default="0"/>
   <arg name="max_thrust" default="120"/>
   <arg name="thrust_p_gain" default="5.0"/>
@@ -22,8 +18,8 @@
   <arg name="map_pitch" value="1,1,-1,-1"/>
   <arg name="map_yaw" value="-1,1,1,-1"/>
   <arg name="max_fin_angle" default="1.396263402"/>
-  <arg name="idle_height" default="10.0"/>
-  <arg name="idle_width" default="20.0"/>
+  <arg name="idle_radius" default="30"/>
+  <arg name="idle_n" default="5"/>
   <arg name="look_ahead_delay" default="0.0"/>
   <arg name="dubins_max_pitch" default="0.26"/>
   <arg name="desired_pitch_limit" default="0.26"/>
@@ -38,6 +34,7 @@
   <arg name="thruster_topic_suffix" default="input" />
   <arg name="thruster_frame_base" default="thruster_" />
   <arg name="thruster_conversion_fcn" default="proportional" />
+  <!-- For proportional thruster model: gain * rotor_ang_vel * |rotor_ang_vel| -->
   <arg name="thruster_gain" default="0.000049"/>
 
   <arg name="fin_topic_prefix" default="fins"/>
@@ -56,8 +53,8 @@
 
   <group ns="$(arg name)">
     <node pkg="trajectory_control"
-          type="auv_geometric_tracking_controller_rect.py"
-          name="auv_geometric_tracking_controller_rect"
+          type="auv_geometric_tracking_controller_Npolygon.py"
+          name="auv_geometric_tracking_controller_Npolygon"
           output="screen"
           unless="$(arg use_ned_frame)">
       <remap from="odom" to="pose_gt"/>
@@ -85,8 +82,8 @@
           fin_topic_prefix: $(arg fin_topic_prefix)
           fin_topic_suffix: $(arg fin_topic_suffix)
           max_fin_angle: $(arg max_fin_angle)
-          idle_height: $(arg idle_height)
-          idle_width: $(arg idle_width)
+          idle_radius: $(arg idle_radius)
+          idle_n: $(arg idle_n)
           look_ahead_delay: $(arg look_ahead_delay)
           desired_pitch_limit: $(arg desired_pitch_limit)
           yaw_error_limit: $(arg yaw_error_limit)
@@ -107,8 +104,8 @@
     </node>
 
     <node pkg="trajectory_control"
-          type="auv_geometric_tracking_controller_rect.py"
-          name="auv_geometric_tracking_controller_rect"
+          type="auv_geometric_tracking_controller_Npolygon.py"
+          name="auv_geometric_tracking_controller_Npolygon"
           output="screen"
           if="$(arg use_ned_frame)">
       <remap from="odom" to="pose_gt_ned"/>
@@ -136,8 +133,8 @@
           fin_topic_prefix: $(arg fin_topic_prefix)
           fin_topic_suffix: $(arg fin_topic_suffix)
           max_fin_angle: $(arg max_fin_angle)
-          idle_height: $(arg idle_height)
-          idle_width: $(arg idle_width)
+          idle_radius: $(arg idle_radius)
+          idle_n: $(arg idle_n)
           look_ahead_delay: $(arg look_ahead_delay)
           desired_pitch_limit: $(arg desired_pitch_limit)
           yaw_error_limit: $(arg yaw_error_limit)
@@ -156,7 +153,8 @@
                   gain: $(arg thruster_gain)
       </rosparam>
     </node>
-</group>
+  </group>
+
   <group if="$(arg gui_on)">
       <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control.rviz"/>
   </group>

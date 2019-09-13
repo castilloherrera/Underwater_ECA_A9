@@ -9,6 +9,8 @@ Panels:
         - /RobotModel1
         - /Sonar left1
         - /Sonar right1
+        - /Trajectory1
+        - /Waypoints1
         - /Waypoint path1
         - /Fin 0 - Wrench1
         - /Fin 1 - Wrench1
@@ -16,7 +18,7 @@ Panels:
         - /Fin 3 - Wrench1
         - /Thrust Wrench1
       Splitter Ratio: 0.5
-    Tree Height: 486
+    Tree Height: 385
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -25,7 +27,7 @@ Panels:
       - /2D Nav Goal1
       - /Publish Point1
     Name: Tool Properties
-    Splitter Ratio: 0.588679016
+    Splitter Ratio: 0.5886790156364441
   - Class: rviz/Views
     Expanded:
       - /Current View1
@@ -36,6 +38,10 @@ Panels:
     Name: Time
     SyncMode: 0
     SyncSource: Sonar left
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
 Visualization Manager:
   Class: ""
   Displays:
@@ -45,7 +51,7 @@ Visualization Manager:
       Color: 160; 160; 164
       Enabled: true
       Line Style:
-        Line Width: 0.0299999993
+        Line Width: 0.029999999329447746
         Value: Lines
       Name: Grid
       Normal Cell Count: 0
@@ -295,8 +301,8 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: -91.8094254
-        Min Value: -95.5871582
+        Max Value: -9999
+        Min Value: 9999
         Value: true
       Axis: Z
       Channel Name: intensity
@@ -315,7 +321,7 @@ Visualization Manager:
       Queue Size: 10
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.00999999978
+      Size (m): 0.009999999776482582
       Style: Points
       Topic: /eca_a9/sss_left
       Unreliable: false
@@ -325,8 +331,8 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: -75.8892899
-        Min Value: -95.6470261
+        Max Value: -9999
+        Min Value: 9999
         Value: true
       Axis: Z
       Channel Name: intensity
@@ -345,14 +351,14 @@ Visualization Manager:
       Queue Size: 10
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.00999999978
+      Size (m): 0.009999999776482582
       Style: Points
       Topic: /eca_a9/sss_right
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
-    - Angle Tolerance: 0.100000001
+    - Angle Tolerance: 0.10000000149011612
       Class: rviz/Odometry
       Covariance:
         Orientation:
@@ -364,7 +370,7 @@ Visualization Manager:
           Scale: 1
           Value: true
         Position:
-          Alpha: 0.300000012
+          Alpha: 0.30000001192092896
           Color: 204; 51; 204
           Scale: 1
           Value: true
@@ -372,16 +378,16 @@ Visualization Manager:
       Enabled: true
       Keep: 100
       Name: Odometry
-      Position Tolerance: 0.100000001
+      Position Tolerance: 0.10000000149011612
       Shape:
         Alpha: 1
         Axes Length: 1
-        Axes Radius: 0.100000001
+        Axes Radius: 0.10000000149011612
         Color: 255; 25; 0
-        Head Length: 0.300000012
-        Head Radius: 0.100000001
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
         Shaft Length: 1
-        Shaft Radius: 0.0500000007
+        Shaft Radius: 0.05000000074505806
         Value: Arrow
       Topic: /eca_a9/pose_gt
       Unreliable: false
@@ -391,11 +397,11 @@ Visualization Manager:
       Class: rviz/Path
       Color: 255; 85; 255
       Enabled: true
-      Head Diameter: 0.300000012
-      Head Length: 0.200000003
-      Length: 0.300000012
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
       Line Style: Lines
-      Line Width: 0.0299999993
+      Line Width: 0.029999999329447746
       Name: Trajectory
       Offset:
         X: 0
@@ -403,9 +409,9 @@ Visualization Manager:
         Z: 0
       Pose Color: 255; 85; 255
       Pose Style: None
-      Radius: 0.0299999993
-      Shaft Diameter: 0.100000001
-      Shaft Length: 0.100000001
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
       Topic: /eca_a9/trajectory_marker
       Unreliable: false
       Value: true
@@ -422,11 +428,11 @@ Visualization Manager:
       Class: rviz/Path
       Color: 255; 85; 0
       Enabled: true
-      Head Diameter: 0.300000012
-      Head Length: 0.200000003
-      Length: 0.300000012
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
       Line Style: Lines
-      Line Width: 0.0299999993
+      Line Width: 0.029999999329447746
       Name: Waypoint path
       Offset:
         X: 0
@@ -434,18 +440,19 @@ Visualization Manager:
         Z: 0
       Pose Color: 255; 85; 255
       Pose Style: None
-      Radius: 0.0299999993
-      Shaft Diameter: 0.100000001
-      Shaft Length: 0.100000001
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
       Topic: /eca_a9/waypoint_path_marker
       Unreliable: false
       Value: true
     - Alpha: 1
-      Arrow Width: 0.200000003
+      Arrow Width: 0.20000000298023224
       Class: rviz/WrenchStamped
       Enabled: true
-      Force Arrow Scale: 0.100000001
+      Force Arrow Scale: 0.10000000149011612
       Force Color: 204; 51; 51
+      Hide Small Values: true
       History Length: 1
       Name: Fin 0 - Wrench
       Topic: /eca_a9/fins/0/wrench_topic
@@ -454,11 +461,12 @@ Visualization Manager:
       Unreliable: false
       Value: true
     - Alpha: 1
-      Arrow Width: 0.300000012
+      Arrow Width: 0.30000001192092896
       Class: rviz/WrenchStamped
       Enabled: true
-      Force Arrow Scale: 0.100000001
+      Force Arrow Scale: 0.10000000149011612
       Force Color: 204; 51; 51
+      Hide Small Values: true
       History Length: 1
       Name: Fin 1 - Wrench
       Topic: /eca_a9/fins/1/wrench_topic
@@ -467,11 +475,12 @@ Visualization Manager:
       Unreliable: false
       Value: true
     - Alpha: 1
-      Arrow Width: 0.300000012
+      Arrow Width: 0.30000001192092896
       Class: rviz/WrenchStamped
       Enabled: true
-      Force Arrow Scale: 0.100000001
+      Force Arrow Scale: 0.10000000149011612
       Force Color: 204; 51; 51
+      Hide Small Values: true
       History Length: 1
       Name: Fin 2 - Wrench
       Topic: /eca_a9/fins/2/wrench_topic
@@ -480,11 +489,12 @@ Visualization Manager:
       Unreliable: false
       Value: true
     - Alpha: 1
-      Arrow Width: 0.300000012
+      Arrow Width: 0.30000001192092896
       Class: rviz/WrenchStamped
       Enabled: true
-      Force Arrow Scale: 0.100000001
+      Force Arrow Scale: 0.10000000149011612
       Force Color: 204; 51; 51
+      Hide Small Values: true
       History Length: 1
       Name: Fin 3 - Wrench
       Topic: /eca_a9/fins/3/wrench_topic
@@ -493,11 +503,12 @@ Visualization Manager:
       Unreliable: false
       Value: true
     - Alpha: 1
-      Arrow Width: 0.300000012
+      Arrow Width: 0.30000001192092896
       Class: rviz/WrenchStamped
       Enabled: true
-      Force Arrow Scale: 0.100000001
+      Force Arrow Scale: 0.10000000149011612
       Force Color: 53; 98; 204
+      Hide Small Values: true
       History Length: 1
       Name: Thrust Wrench
       Topic: /eca_a9/thrusters/0/thrust_wrench
@@ -530,12 +541,13 @@ Visualization Manager:
       Marker Topic: /eca_a9/interpolator_visual_markers
       Name: MarkerArray
       Namespaces:
-        dubins: true
+        {}
       Queue Size: 100
       Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
+    Default Light: true
     Fixed Frame: world
     Frame Rate: 30
   Name: root
@@ -547,7 +559,10 @@ Visualization Manager:
     - Class: rviz/FocusCamera
     - Class: rviz/Measure
     - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
       Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
     - Class: rviz/SetGoal
       Topic: /move_base_simple/goal
     - Class: rviz/PublishPoint
@@ -557,9 +572,9 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 303.795349
+      Distance: 176.49676513671875
       Enable Stereo Rendering:
-        Stereo Eye Separation: 0.0599999987
+        Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
@@ -568,24 +583,24 @@ Visualization Manager:
         Y: 0
         Z: 0
       Focal Shape Fixed Size: false
-      Focal Shape Size: 0.0500000007
+      Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
-      Near Clip Distance: 0.00999999978
-      Pitch: 0.525398612
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.5253986120223999
       Target Frame: eca_a9/base_link
       Value: Orbit (rviz)
-      Yaw: 2.36903524
+      Yaw: 2.369035243988037
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 1176
+  Height: 1025
   Hide Left Dock: false
   Hide Right Dock: false
   Image:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd00000004000000000000020f0000040efc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005e00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000002800000274000000d000fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d00610067006501000002a2000001940000001600ffffff000000010000010f0000040efc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a0056006900650077007301000000280000040e000000a900fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007800000003efc0100000002fb0000000800540069006d00650100000000000007800000030000fffffffb0000000800540069006d00650100000000000004500000000000000000000004560000040e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000004000000000000021100000363fc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d0000020c000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d006100670065010000024f000001510000001600ffffff000000010000010f00000363fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003d00000363000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000073d0000003efc0100000002fb0000000800540069006d006501000000000000073d000002eb00fffffffb0000000800540069006d00650100000000000004500000000000000000000004110000036300000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -594,6 +609,6 @@ Window Geometry:
     collapsed: false
   Views:
     collapsed: false
-  Width: 1920
-  X: 1920
-  Y: 24
+  Width: 1853
+  X: 67
+  Y: 27

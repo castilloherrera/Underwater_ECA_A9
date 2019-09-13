@@ -151,9 +151,7 @@
       </rosparam>
     </node>
   </group>
-
-  <!--group if="$(arg gui_on)"-->
-      <!--node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control.rviz"/-->
-      <!--node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_multi.rviz"/-->
-  <!--/group-->
+  <group if="$(arg gui_on)">
+      <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control.rviz"/>
+  </group>
 </launch>

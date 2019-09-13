@@ -55,8 +55,8 @@
 
   <group ns="$(arg name)">
     <node pkg="trajectory_control"
-          type="auv_geometric_controller_rect.py"
-          name="auv_geometric_controller_rect"
+          type="auv_geometric_tracking_controller_rect_file.py"
+          name="auv_geometric_tracking_controller_rect_file"
           output="screen"
           unless="$(arg use_ned_frame)">
       <remap from="odom" to="pose_gt"/>
@@ -110,8 +110,8 @@
     </node>
 
     <node pkg="trajectory_control"
-          type="auv_geometric_controller_rect.py"
-          name="auv_geometric_controller_rect"
+          type="auv_geometric_tracking_controller_rect_file.py"
+          name="auv_geometric_tracking_controller_rect_file"
           output="screen"
           if="$(arg use_ned_frame)">
       <remap from="odom" to="pose_gt_ned"/>
