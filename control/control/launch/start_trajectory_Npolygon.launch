@@ -19,7 +19,7 @@
   <arg name="map_yaw" value="-1,1,1,-1"/>
   <arg name="max_fin_angle" default="1.396263402"/>
   <arg name="idle_radius" default="30"/>
-  <arg name="idle_n" default="5"/>
+  <arg name="idle_n" default="8"/>
   <arg name="look_ahead_delay" default="0.0"/>
   <arg name="dubins_max_pitch" default="0.26"/>
   <arg name="desired_pitch_limit" default="0.26"/>
