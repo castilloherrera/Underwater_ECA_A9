@@ -9,7 +9,7 @@ cd ~/name_of_workspace
 
 Then, build your workspace using 
 
-    Whit the Simulator Underwater 
+    With the Simulator Underwater 
     git clone https://github.com/castilloherrera/Simulator_Underwater.git
      
 cd ~/catkin_ws
