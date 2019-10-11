@@ -15,8 +15,7 @@
 
   <!--node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_20.rviz"/-->
   <!--node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_10.rviz"/-->
-  <!--node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_4.rviz"/-->
-  <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_4_2.0.rviz"/>
+  <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find control)/rviz/eca_a9_control_fleet_4.rviz"/>
   
 </launch>
 
